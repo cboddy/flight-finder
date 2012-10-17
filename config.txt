@@ -1,0 +1,24 @@
+###########################################
+######### Configuration Settings ##########
+###########################################
+
+
+# Gmail account and password you wish to send / receive 
+# any notification message from / to. 
+[emailSettings]
+gmailUsername = example@gmail.com
+gmailPassword = examplePassword
+
+# After configuring your search on Opodo's web
+# client and hitting `Search', all the search 
+# information is encoded in the URL. Copy the URL
+# and add it here (no quotation marks), along with the 
+# max price you wish to know about before
+# sending yourself an email. Example is below for a flight
+# to Kuala Lumpur next year, for less than 700 GBP.
+
+[searchSettings]
+flightMaxPriceForEmail = 700.0
+searchURL = http://www.opodo.co.uk/opodo/flights/search?tripType=R&departureAirportCode=LON&departureAirport=London%2C%2520London%2C%2520United%2520Kingdom%2520%255BLON%255D&departureDay=17&departureMonth=201304&departureTime=ANY&arrivalAirportCode=KUL&arrivalAirport=Kuala%2520Lumpur%2520International%2520Airport%2C%2520Kuala%2520Lumpur%2C%2520Malaysia%2520%255BKUL%255D&directFlight=false&flexible=false&numberOfAdults=1&numberOfChildren=0&numberOfInfants=0&cabinType=&backButton=false&searchLowCost=true&includeRailAndFly=false&returnDay=17&returnMonth=201305&returnTime=ANY
+
+
